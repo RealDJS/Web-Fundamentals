@@ -1,4 +1,40 @@
+/* @import */
+
+/* * {
+    border: scrollbarwidth;
+
+} */
+
+body {
+    /* specify what area is affected by the font changes */
+    /* color: white; */
+    /* background-color: lightgreen; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    max-width: 1080px;
+}
+
+/* h1,h2,h3,h4,h5,h6 {
+    font-family: "Rock Salt", Impact, sans-serif;
+} */
+
 p {
-    color: red;
-    background-color: green;
+    max-width: 70ch
+        /* ch = specifies the width of the content area */
+        /* Do not use more than 70 characters per line */
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.mission h1 {
+    text-align: center;
+}
+
+.mission h2 {
+    text-align: center;
 }
