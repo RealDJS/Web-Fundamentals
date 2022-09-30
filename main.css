@@ -24,17 +24,15 @@ p {
         /* Do not use more than 70 characters per line */
 }
 
-img {
+/* img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-}
+} */
 
-.mission h1 {
+.opening h2 {
     text-align: center;
-}
-
-.mission h2 {
-    text-align: center;
+    margin-bottom: 0;
+    /* margin: change the spacing aroung class/space */
 }
