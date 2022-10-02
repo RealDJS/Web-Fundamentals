@@ -4,38 +4,61 @@ html {
 
 .statement {
     align-content: center;
-    padding: 3%;
+    max-width: 600px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    border: 1px solid darkgray;
+    margin: 5%;
 }
 
 .title {
+    max-width: 600px;
     text-transform: uppercase;
     text-align: center;
 }
 
 body {
+    padding: 5%;
     line-height: 1.5;
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-}
-
-.statement {
-    max-width: 600px;
+    margin: 5%;
 }
 
 .title h1 {
+    font-weight: 100;
     letter-spacing: .15ch;
     margin-bottom: -1%;
 }
 
-.title h4 {
-    letter-spacing: .1ch;
+.title h2 {
+    font-size: medium;
+    font-weight: 100;
     color: #006eb6;
+    letter-spacing: .4ch;
+    margin-bottom: 1%;
+}
+
+.underline {
+    border-bottom: 1px solid gray;
     margin-bottom: 8%;
+}
+
+main {
+    letter-spacing: .00001px;
 }
 
 .ways {
     margin-bottom: 6ch;
+}
+
+li {
+    letter-spacing: 0.01px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 .logo {

@@ -14,9 +14,9 @@ body {
     max-width: 1080px;
 }
 
-/* h1,h2,h3,h4,h5,h6 {
-    font-family: "Rock Salt", Impact, sans-serif;
-} */
+h1,h2,h3,h4,h5,h6 {
+    text-align: center;
+}
 
 p {
     max-width: 70ch
@@ -24,12 +24,12 @@ p {
         /* Do not use more than 70 characters per line */
 }
 
-/* img {
+.banner {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
-} */
+    width: max-content;
+}
 
 .opening h2 {
     text-align: center;
