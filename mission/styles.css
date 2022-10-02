@@ -1,0 +1,47 @@
+html {
+    background-color: white;
+}
+
+.statement {
+    align-content: center;
+    padding: 3%;
+}
+
+.title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+body {
+    line-height: 1.5;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.statement {
+    max-width: 600px;
+}
+
+.title h1 {
+    letter-spacing: .15ch;
+    margin-bottom: -1%;
+}
+
+.title h4 {
+    letter-spacing: .1ch;
+    color: #006eb6;
+    margin-bottom: 8%;
+}
+
+.ways {
+    margin-bottom: 6ch;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
