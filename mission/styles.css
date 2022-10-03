@@ -5,27 +5,29 @@ html {
 .statement {
     align-content: center;
     width: 600px;
-    padding-right: 10%;
-    padding-left: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
     padding-top: 3%;
     padding-bottom: 3.5%;
     border: 1px solid darkgray;
-    margin: 5%;
+    /* margin: 5%; */
+    text-align: left;
 }
 
 .title {
-    max-width: 600px;
+    width: 600px;
     text-transform: uppercase;
     text-align: center;
 }
 
 body {
-    padding: 5%;
+    align-content: left;
+    width: 600px;
+    padding: 1%;
     line-height: 1.5;
-    text-align: left;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    margin: 5%;
+    /* margin: 5%; */
 }
 
 .title h1 {
