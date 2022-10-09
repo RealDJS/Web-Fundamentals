@@ -1,6 +1,12 @@
-html {
+/* html {
     background-color: white;
+} */
+
+.dark {
+    background-color: #333;
+    color: white;
 }
+
 
 .statement {
     align-content: center;
@@ -40,9 +46,13 @@ body {
 .title h2 {
     font-size: 20px;
     font-weight: 450;
-    color: #006eb6;
+    color: #14a2ff;
     letter-spacing: .15ch;
     margin-bottom: 1%;
+}
+
+.dark h2 {
+    color: #7bcbff;
 }
 
 .underline {
