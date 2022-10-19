@@ -19,11 +19,13 @@
     align-items: center;
 }
 
+
 .title {
     width: 600px;
     text-transform: uppercase;
     text-align: center;
 }
+
 
 body {
     width: 600px;
@@ -34,12 +36,14 @@ body {
     /* margin: 5%; */
 }
 
+
 .title h1 {
     font-size: 40px;
     font-weight: 540;
     letter-spacing: .15ch;
     margin-bottom: -2%;
 }
+
 
 .title h2 {
     font-size: 20px;
@@ -53,10 +57,12 @@ body {
     color: #7bcbff;
 }
 
+
 .underline {
     border-bottom: 1px solid gray;
     margin-bottom: 8%;
 }
+
 
 main {
     margin: auto;
@@ -65,15 +71,18 @@ main {
 
 }
 
+
 .ways {
     margin-bottom: 6ch;
 }
+
 
 li {
     letter-spacing: 0.01px;
     padding-top: 4px;
     padding-bottom: 4px;
 }
+
 
 .logo {
     max-width: 150px;
