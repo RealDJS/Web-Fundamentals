@@ -8,19 +8,19 @@ function changeTheme() {
 
     const checkValue = themeSelector.value;
     console.log(checkValue)
+    // if the value is dark then:
     if (checkValue == "Dark") {
+        // add the dark class to the body
         document.body.classList.add("dark")
+        // change the source of the logo to point to the white logo.
         document.querySelector(".logo").src = "byui-logo_white.png"
     }
+    // otherwise
     else {
+        // remove the dark class
         document.body.classList.remove("dark")
+        // make sure the logo src is the blue logo.
         document.querySelector(".logo").src = "byui-logo_blue.jpg"
     }
-    // if the value is dark then:
-    // add the dark class to the body
-    // change the source of the logo to point to the white logo.
-    // otherwise
-    // remove the dark class
-    // make sure the logo src is the blue logo.
 }
 // add eventlistener to the themeSelector element here. Use the changeTheme function as the event handler function.
