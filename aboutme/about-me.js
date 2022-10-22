@@ -1,4 +1,5 @@
 console.log("It worked!")
+// practically a PRINT statement in python
 const favoriteFoods = [" steak", " ginger beer", " german pancakes"];
 
 const newP = document.createElement("p");

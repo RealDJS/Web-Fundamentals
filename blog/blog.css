@@ -1,10 +1,61 @@
-h1 {
+/* blog.css */
+
+.site {
     display: grid;
-    gr
-    text-align: center;
+    grid-template-columns: 3fr 6fr 3fr;
+    grid-template-rows: 10ch 5ch 100%;
+    gap: 2px 2px;
+    font-family: sans-serif;
 }
 
-body {
-    /* background-color: #0080ff; */
-    font-family: sans-serif;
+.title {
+    text-align: center;
+    grid-column: 2/3;
+}
+
+.bar {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 8fr 1fr 1fr 1fr;
+    border: 1px solid;
+}
+
+.filter {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    border: 1px solid;
+}
+
+.about {
+    grid-column: 2/3;
+}
+
+.archive {
+    grid-column: 3/4;
+}
+
+.search {
+    grid-column: 4/5
+}
+
+.articles {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.post {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    gap: 3ch;
+}
+
+.book-info {
+    grid-column: 1/2;
+    text-align: right;
+}
+
+.book-contents {
+    grid-column: 2/3;
+    max-width: 50ch;
 }
