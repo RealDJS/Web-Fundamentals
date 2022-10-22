@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: 3fr 6fr 3fr;
     grid-template-rows: 10ch 5ch 100%;
-    gap: 2px 2px;
+    gap: 5px 5px;
     font-family: sans-serif;
 }
 
@@ -18,13 +18,15 @@
     grid-row: 2/3;
     display: grid;
     grid-template-columns: 8fr 1fr 1fr 1fr;
-    border: 1px solid;
+    border-bottom: orange 1px solid;
+    border-top: orange 1px solid;
 }
 
 .filter {
     grid-column: 3/4;
     grid-row: 3/4;
-    border: 1px solid;
+    border: 1px solid orange;
+    
 }
 
 .about {
@@ -53,6 +55,11 @@
 .book-info {
     grid-column: 1/2;
     text-align: right;
+}
+
+.book-title {
+    color: red;
+
 }
 
 .book-contents {
